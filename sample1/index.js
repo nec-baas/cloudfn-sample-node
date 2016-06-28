@@ -9,6 +9,8 @@ exports.sayHello = function (event, context) {
     const response = {
         message: "Hello world, " + name + " !!!"
     };
+
+    console.log("response = " + JSON.stringify(response));
     context.succeed(response);
 };
 
