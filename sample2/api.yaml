@@ -1,0 +1,10 @@
+swagger: '2.0'
+basePath: /images
+produces:
+  - image/jpeg
+paths:
+  /image1
+    get:
+      operationId: getImage1
+      summary: get image
+      description: get jpeg image

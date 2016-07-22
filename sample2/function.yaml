@@ -1,0 +1,9 @@
+image1:
+  code:
+    bucket: CUSTOM_CODE
+    file: images-1.0.0.tgz
+  handler: image1
+  env:
+    spec: node6
+    timeout: 600
+    memorySize: 128
