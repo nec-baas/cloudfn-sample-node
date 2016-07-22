@@ -3,8 +3,8 @@ basePath: /images
 produces:
   - image/jpeg
 paths:
-  /image1
+  /image1:
     get:
-      operationId: getImage1
+      operationId: image1
       summary: get image
       description: get jpeg image
